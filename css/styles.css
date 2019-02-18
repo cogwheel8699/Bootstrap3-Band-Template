@@ -1,11 +1,9 @@
-
-
 body {
   background-image: url("../img/bg.jpg");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -23,25 +21,25 @@ audio {
 }
 
 @media all and (min-width: 520px) {
-.container {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  background: rgba(0, 0, 0, 0.9);
-  padding: 40px;
- }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+  }
 }
 
 @media all and (max-width: 520px) {
-.container {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  background: rgba(0, 0, 0, 0.9);
-  padding: 20px;
- }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+  }
 }
 
 .photo {
@@ -49,25 +47,25 @@ audio {
 }
 
 .productbox {
-  padding:10px;
+  padding: 10px;
 }
 
 .producttitle {
-  font-weight:bold;
-  font-size:1.4em;
-  padding:5px 0 5px 0;
+  font-weight: bold;
+  font-size: 1.4em;
+  padding: 5px 0 5px 0;
   text-align: center;
 }
 
 .productprice {
-  border-top:1px solid #dadada;
-  padding-top:5px;
+  border-top: 1px solid #dadada;
+  padding-top: 5px;
   text-align: right;
 }
 
 .pricetext {
-  font-weight:bold;
-  font-size:1.4em;
+  font-weight: bold;
+  font-size: 1.4em;
   text-align: left;
 }
 
@@ -84,7 +82,7 @@ audio {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display:none;
+  display: none;
 }
 
 #footer {
