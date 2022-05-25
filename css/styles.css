@@ -42,9 +42,9 @@ h1,h2,h3,h4,h5,h6,p {
   }
 }
 
-#footer {
-  padding: 10px;
-  text-align: center;
+.music-bar {
+  position: fixed;
+  top: 0%;
 }
 
 .icon-bar {
@@ -96,4 +96,9 @@ h1,h2,h3,h4,h5,h6,p {
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+
+#footer {
+  padding: 10px;
+  text-align: center;
 }
